@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "bin/api_programkerja.dart",
+      "use": "@vercel-community/dart"
+    }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "bin/api_programkerja.dart" }
+  ]
+}
